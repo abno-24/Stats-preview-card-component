@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Lexend+Deca:regular);
+*{
+    box-sizing: border-box;
+}
+:root{
+    --verydarkblue : hsl(233, 47%, 7%);
+    --darkdesaturatedblue: hsl(244, 38%, 16%);
+    --softviolet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --slightlytransparentwhitef: hsla(0, 0%, 100%, 0.75);
+    --slightlytransparentwhites: hsla(0, 0%, 100%, 0.6);
+}
+html{
+    background: var(--verydarkblue);
+    color: var(--white);
+    height: auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 1.5rem;
+    font-family: 'Inter';
+    text-align: center;
+    background-color: var(--darkdesaturatedblue);
+    border-radius: 0.5rem;
+}
+.image{
+    background-color: hsla(277, 64%, 61%, 0.7);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+#img{
+    mix-blend-mode: overlay;
+    width: 100%;
+}
+.text{
+    padding: 2rem;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    line-height: 0.8rem;
+}
+#word{
+    color: var(--softviolet);
+}
+#main{
+    color: var(--slightlytransparentwhitef);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.footer{
+    margin-top: 3.5rem;
+}
+.footer-content{
+    margin-top: 2.5rem;
+}
+.footer-content p{
+    color: var(--slightlytransparentwhites);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+@media only screen and (min-width: 1200px){
+    body{
+        display: flex;
+        flex-flow: row-reverse;
+        text-align: left;
+        margin: 5rem;
+        height: auto;
+        max-height: 450px;
+        border-radius: 0.5rem;
+    }
+    .image{
+        width: 125%;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0.5rem;
+        overflow: hidden;
+    }
+    .text{
+        width: 100%;
+        padding: 1rem;
+        margin: 3rem;
+        object-position: center;
+    }
+    .footer{
+        display: flex;
+        gap: 4;
+        justify-content: space-around;
+        margin-top: 0.8rem;
+        margin-left: -3rem;
+    }
+}
