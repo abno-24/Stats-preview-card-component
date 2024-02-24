@@ -17,11 +17,11 @@ This challenge was great to make you practice on image with background and also 
 So i was facing challenge that how to manage border and color of image with its background but then somehow i solved it with the help of google and while i was working on this i also learnt one new property which is "mix-blend-mode".
 
 ### Screenshot
-![Screenshot of Desktop layout](./Screenshot/Desktop-layout.png)
+![Screenshot of Desktop layout](./Screenshot/desktopLayout.png)
 
-![Screenshot of Mobile layout 1](./Screenshot/Mobile-layout-1.png)
+![Screenshot of Mobile layout 1](./Screenshot/mobileLayout1.png)
 
-![Screenshot of Mobile layout 2](./Screenshot/Mobile-layout-2.png)
+![Screenshot of Mobile layout 2](./Screenshot/mobileLayout2.png)
 
 ### Links
 
